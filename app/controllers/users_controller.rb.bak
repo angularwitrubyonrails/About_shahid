@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user]) 
     @user.save
-    render :action => "show"
+    redirect_to root_url
   end
 
 end

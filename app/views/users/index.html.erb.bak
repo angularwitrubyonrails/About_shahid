@@ -336,7 +336,7 @@
 	      Send <span>Message</span>
 	      <i><img src="../img/arrow-right.png"></i>
 	    </button> -->
-	    <%= f.submit :send_Message, :class => "btn-inverse pull-right",  :data => {:toggle => "modal", :target => "#myModal"} %>
+	    <%= f.submit :send_Message, :class => "btn-inverse pull-right" %>
 
 
 

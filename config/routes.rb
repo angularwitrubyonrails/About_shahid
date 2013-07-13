@@ -1,5 +1,6 @@
 AboutMe::Application.routes.draw do
   get "users/index"
+  post "users/index"
   resources :users
 
   # The priority is based upon order of creation:

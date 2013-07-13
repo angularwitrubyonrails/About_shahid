@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user]) 
     @user.save
-    render :action => "index"
+    redirect_to root_path
   end
 
 end
